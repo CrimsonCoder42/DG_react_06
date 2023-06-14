@@ -5,7 +5,7 @@ import ColorInput from './ColorInput';
 
 function App() {
   const [color, setColor] = useState('');
-
+  console.log("app",color)
   const handleColorChange = (e) => {
     e.preventDefault();
     setColor(e.target.value);
